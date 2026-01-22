@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact Me</title>
+
+<style>
+    /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background-color: #111;
+}
+
+/* Logo link */
+.logo {
+  text-decoration: none;
+}
+
+/* Logo image */
+.logo img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* makes it circular */
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+/* Nav links */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00adb5;
+}
+    body {
+        font-family: Arial, sans-serif;
+        background: #f2f2f2;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact-container {
+        max-width: 600px;
+        margin: 60px auto;
+        background: #fff;
+        padding: 40px;
+        border-radius: 12px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+
+    .contact-container h1 {
+        font-size: 42px;
+        margin-bottom: 20px;
+        color: #4facfe;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        margin: 15px 0;
+        font-size: 18px;
+    }
+
+    .contact-item i {
+        font-size: 28px;
+        color: #4facfe;
+        margin-right: 15px;
+        width: 40px;
+        text-align: center;
+    }
+
+    .contact-item a {
+        color: #333;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .contact-item a:hover {
+        color: #4facfe;
+    }
+</style>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+ <header class="header">
+            <a href="first.html" class="logo">
+                <img src="c:\Users\gubba\OneDrive\Pictures\Saved Pictures\PHOTO1.jpg" height="150px" width="150px">
+            </a>
+
+        <nav>
+            <div class="photo"></div>
+            <ul>
+                <li><a href="first.html" class="active">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="skills.html" class="active">skills</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="contact-container">
+    <h1>Contact Me</h1>
+
+    <div class="contact-item">
+        <i class="fa-solid fa-user"></i>
+        <span>sharmila gubbala</span>
+    </div>
+
+    <div class="contact-item">
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:youremail@example.com">gubbalasharmila999@gmail.com</a>
+    </div>
+
+    <div class="contact-item">
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+1234567890">+91 9391694652</a>
+    </div>
+
+    <div class="contact-item">
+        <i class="fa-brands fa-linkedin"></i>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+    </div>
+
+    <div class="contact-item">
+        <i class="fa-brands fa-github"></i>
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+    </div>
+
+</div>
+
+</body>
+</html>

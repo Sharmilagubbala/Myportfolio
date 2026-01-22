@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Skills with Icons</title>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+    /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background-color: #111;
+}
+
+/* Logo link */
+.logo {
+  text-decoration: none;
+}
+
+/* Logo image */
+.logo img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%; /* makes it circular */
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+/* Nav links */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00adb5;
+}
+        body {
+        font-family: Arial, sans-serif;
+        background: #f2f2f2;
+    }
+
+    .skills {
+        max-width: 700px;
+        margin: 60px auto;
+        background: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    .skills h2 {
+        margin-bottom: 30px;
+    }
+
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 20px;
+    }
+
+    .skill {
+        padding: 20px;
+        border-radius: 10px;
+        background: #f9f9f9;
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .skill:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .skill i {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .skill p {
+        margin: 0;
+        font-weight: bold;
+    }
+
+    .html { color: #e34c26; }
+    .css { color: #264de4; }
+    .js { color: #f0db4f; }
+    .python { color: #4b8bbe; }
+</style>
+</head>
+<body>
+ <header class="header">
+            <a href="first.html" class="logo">
+                <img src="c:\Users\gubba\OneDrive\Pictures\Saved Pictures\PHOTO1.jpg" height="150px" width="150px">
+            </a>
+        <nav>
+            <div class="photo"></div>
+            <ul>
+                <li><a href="first.html" class="active">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="skills.html" class="active">skills</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-grid">
+        <div class="skill">
+            <i class="fa-brands fa-html5 html"></i>
+            <p>HTML</p>
+        </div>
+
+        <div class="skill">
+            <i class="fa-brands fa-css3-alt css"></i>
+            <p>CSS</p>
+        </div>
+
+        <div class="skill">
+            <i class="fa-brands fa-js js"></i>
+            <p>JavaScript</p>
+        </div>
+
+        <div class="skill">
+            <i class="fa-brands fa-python python"></i>
+            <p>Python</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
